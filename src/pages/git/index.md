@@ -76,6 +76,11 @@ Once Git is installed and configured on your computer, you need to initialize it
 
 It's important that the Git directory is installed in the project root folder. Git can track files in subfolders, but it won't track files located in a parent folder relative to the Git directory.
 
+### Switching Branches
+Great! Now if you type git branch you'll see two local branches: a main branch named master and your new branch named clean_up.
+You can switch branches using the git checkout <branch> command. Try it now to switch to the clean_up branch:
+`git checkout clean_up`
+
 ### Get Help in Git <a name="get-help-in-git"></a>
 If you forget how any command works in Git, you can access Git help from the command line several ways:
 ```shell
